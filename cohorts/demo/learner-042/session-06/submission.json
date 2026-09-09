@@ -1,0 +1,9 @@
+{
+  "schema_version": 1,
+  "cohort": "demo",
+  "alias": "learner-042",
+  "session": "06",
+  "course_commit": "97626b97179c8659587410d4c6d30ac968b6f992",
+  "public_safe": true,
+  "ai_review_consent": false
+}
