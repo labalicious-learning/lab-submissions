@@ -1,0 +1,14 @@
+{
+  "01": "Classify each AI claim, supply an evidence packet, and state what the conclusion does not prove.",
+  "02": "Supply an AI task brief, at least three verified repository references, one actual check result and an unresolved product question.",
+  "03": "Preserve synthetic raw data; supply cleaned analysis, source log, decision memo and an automation boundary. Verify formulas and locale assumptions.",
+  "04": "Supply a risk-ranked test charter covering success, duplicate/concurrent attempts, payment failure, role/tenant, consent, accessibility and recovery. Explain the first three tests.",
+  "05": "Supply a bounded journey log, evidence packet, regression candidate and product uncertainty; record a relevant API observation and mobile-width repeat.",
+  "06": "Supply the four-lock tenant/role evidence table, security finding or isolation report, and regression proposal. Distinguish fictional selectors from real authentication.",
+  "07": "Supply a small patch plus actual red/green outcomes, or an explicitly unexecuted assertion design when tools are blocked. State why the assertion is meaningful and what it does not cover.",
+  "08": "Supply viewport/build/OS/browser evidence, keyboard/semantic checks and user impact. Distinguish design preference, platform font differences and actual defects. This text-only reviewer cannot inspect images.",
+  "09": "Supply an integration map and healthy plus failure/recovery evidence; prove final contact/consent/classification/queue effects, not only an HTTP 200.",
+  "10": "Supply recommendations per evidence round, a factual incident update and any override decision with approval reasoning. Missing or failed checks are not passes.",
+  "11": "Supply a model-evaluation card, role-specific approval/restriction/rejection, a new corpus case and analysis of a dangerous false pass. Mock outputs are a valid route.",
+  "12": "Supply charter, task brief, evidence, automation proposal or rationale for manual testing, and a calibrated verdict with individual reflections. Instructor must separately conduct a live defense."
+}

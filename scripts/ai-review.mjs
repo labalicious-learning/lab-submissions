@@ -14,7 +14,8 @@ async function main(){
   if(packet.manifest.ai_review_consent!==true)throw new Error('Student has not consented to AI processing; use human review.');
   const model=process.env.AI_REVIEW_MODEL;
   const instructions=await readFile(new URL('../reviewer/instructions.md',import.meta.url),'utf8');
-  const rubric=await readFile(new URL('../RUBRIC.md',import.meta.url),'utf8');
+  const requirements=JSON.parse(await readFile(new URL('../reviewer/session-requirements.json',import.meta.url),'utf8'));
+  const rubric=(await readFile(new URL('../RUBRIC.md',import.meta.url),'utf8'))+'\n\nSession requirements: '+requirements[packet.manifest.session];
   const promptSha=createHash('sha256').update(instructions+rubric).digest('hex').slice(0,16);
   const response=await callReviewer(requestBody({model,instructions,rubric,packet}),process.env.OPENAI_API_KEY);
   const data=parseReview(response,packet);
