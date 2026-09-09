@@ -1,0 +1,29 @@
+name: Submission intake
+on:
+  pull_request_target:
+    branches: [main]
+    types: [opened, synchronize, reopened, ready_for_review]
+permissions:
+  contents: read
+  pull-requests: write
+  statuses: write
+concurrency:
+  group: intake-${{ github.event.pull_request.number }}
+  cancel-in-progress: true
+jobs:
+  inspect:
+    name: Data-only packet inspection
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      # Critical: trusted BASE SHA only. Never use PR HEAD or the merge ref here.
+      - uses: actions/checkout@v6
+        with:
+          ref: ${{ github.event.pull_request.base.sha }}
+          persist-credentials: false
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - run: node scripts/intake.mjs
+        env:
+          GH_TOKEN: ${{ github.token }}

@@ -1,0 +1,7 @@
+node_modules/
+.env
+.env.*
+private/
+scratch/
+review-output/
+.DS_Store
