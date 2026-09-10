@@ -1,25 +1,29 @@
-# Review rubric v1
+# Review rubric v2 — coaching without points
 
-Public comments provide coaching, not marks. Instructors record scores privately.
+Public comments provide artifact-focused coaching, not marks or completion decisions. Instructors keep progress records private. The individual course-long software product is the assessment; there is no separate student exam, numeric threshold or surprise live defense.
 
-Score each dimension 0–4: 0 missing; 1 developing; 2 partially demonstrated; 3 ready; 4 strong. Equal weighting: total out of 20, percentage = total × 5. A 70% threshold is 14/20, with a separate safety gate. An invented finding cannot be offset by unrelated points. Instructors resolve scoring disputes and accommodations privately.
-
-| Dimension | Ready (3) | Strong (4) |
+| Dimension | Ready for the next step | Strong evidence |
 | --- | --- | --- |
 | Framing | User, goal and risk identified | Assumptions and failure boundaries distinguished |
-| Test design | Positive/negative/edge cases tied to requirements | Prioritized by business risk with justified coverage limits |
-| Evidence | Reproducible steps and relevant artifacts | Corroborated UI/API/data evidence, precise provenance |
-| AI use | Contributions disclosed and checked | Errors corrected; verification process improved |
+| Test design | Positive/negative/edge cases tied to requirements | Prioritized risks and justified coverage limits |
+| Evidence | Reproducible steps and relevant artifacts | Corroborated UI/API/data evidence and precise provenance |
+| AI use | Contributions disclosed and checked | Errors corrected; workflow and budget improved |
 | Communication | Clear finding and next step | Calibrated verdict, uncertainty and tradeoffs explained |
 
-Absence of an AI subscription is not a scoring failure: assess the approved paired/mock-output route. Missing evidence is not proof the result is wrong. Test success is not proof the whole lab succeeded. Record each OS actually exercised, rather than assuming cross-platform success.
+These five dimensions guide practice-packet coaching. The product also needs GitHub practice, useful functioning software, visual/accessibility quality and a reproducible handoff, as defined at https://learn.labalicious.com/COURSE_PROJECT.html.
 
-Assess only the assigned simulation's implemented behavior. Do not demand CRM mutations, real queues, OAuth, nonexistent overlays or invented model metrics. Accept requirement clarification blockers and explicitly unexecuted assertion designs under the course's approved routes. Verify reasoning with a source or live explanation when execution is unavailable; record unexecuted practical skills for apprenticeship follow-up.
+No premium AI subscription is required. Support approved local, capped hosted, supervised and practice mock routes. Missing evidence is not proof that a result is wrong. Passing a test is not proof of complete quality. Record actual OS/browser coverage rather than assuming cross-platform success.
 
-Pilot completion policy: equal-weight mean of private /20 scores for sessions 01–12 must be at least 14, capstone at least 14, all required packets accepted and safety gate satisfied. Session 00 is unscored readiness. Permit remediation; this is foundation-course completion, not certification of expert readiness.
+Assess only the assigned simulation's implemented behavior. Do not demand real queues, OAuth, nonexistent controls or invented model metrics. Accept explicit clarification blockers and unexecuted designs in the practice routes; record practical follow-up needs honestly. A product's agreed equivalents require instructor approval, not an automatic waiver by a bot.
 
-## Acceptance gates
+## Acceptance and completion
 
-Human reviewer verifies privacy and publication permission, one reproduced claim, appropriate synthetic scope, rubric completeness and individual understanding. For the capstone, require a brief live defense and one small changed scenario. For Session 00, record a private readiness demonstration only.
+A human verifies privacy/publication permission, evidence and the learner's understanding before accepting a practice packet. Session 00 remains a private readiness demonstration. Practice-packet acceptance is formative, not a points-based graduation gate.
 
-Typical public feedback: one strength, up to three actionable evidence requests, one question and a statement of what the reviewer did not verify. Final status: accepted / revision requested / instructor follow-up. No public numeric grades.
+For Session 12, an optional packet supplies a summary/index of the learner's own product repository, release and evidence. The text-only reviewer must not follow links, clone or execute the product, inspect images, invent a review of linked content or request a hidden scenario. The instructor reviews the actual product separately.
+
+Jared Cluff reviews progress along the way, hears the individual's final presentation and makes the certificate-of-course-completion decision privately. AI cannot award completion or merge/approve work. If revisions are needed, provide clear actions and a follow-up opportunity. Completion does not certify expert professional readiness.
+
+Typical public feedback: one strength, up to three evidence requests, one question and what the reviewer did not verify. Packet status: accepted / revision requested / instructor follow-up. Product progress: ready for next step / revise and return / instructor support needed. No public numeric grades or private identities.
+
+© 2026 Jared Cluff.

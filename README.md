@@ -20,7 +20,7 @@ The bot never runs student code and never certifies that your result is correct.
 
 - Deterministic checks run automatically for PRs against `main` using trusted code from `main`.
 - AI coaching is instructor-triggered, requires exact-commit approval and separate consent, and is off until an API key, evaluated model and protected environment are configured. See [Instructor operations](INSTRUCTOR.md).
-- Peer and instructor [review templates](templates/review.md) keep feedback evidence-based. Final scores stay private.
+- Peer and instructor [review templates](templates/review.md) keep feedback evidence-based. Progress and completion decisions stay private.
 - Accepted PRs become portfolio artifacts only after an instructor verifies privacy, permissions, authorship and evidence. No automatic merging or public rankings.
 
 This repository is not a confidential inbox. For a private route, arrange direct transfer with your instructor in person or through the cohort's approved private channel **before** putting work on GitHub. Never put private data in an issue to request that route.
@@ -30,3 +30,7 @@ This repository is not a confidential inbox. For a private route, arrange direct
 [Operations](INSTRUCTOR.md) · [Rubric](RUBRIC.md) · [Review security](SECURITY.md) · [Rights](COPYRIGHT.md) · [Offline review brief](reviewer/instructions.md)
 
 © 2026 Jared Cluff for course infrastructure. Student submissions retain their respective authors' rights; see [Copyright](COPYRIGHT.md).
+
+## Individual course project
+
+Product code, branches, PRs and milestone evidence belong in each learner's own public repository. See https://learn.labalicious.com/COURSE_PROJECT.html. This repository accepts practice packets and an optional Session 12 summary/index only. It does not follow product links or execute student code. Jared reviews progress and the personal final presentation to decide on course completion; no separate exam, numeric threshold or automated certificate.

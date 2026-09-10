@@ -14,4 +14,4 @@ One question for the author:
 
 What this review did not verify:
 
-For instructor only: acceptance/revision decision. Numeric scores and personal feedback stay in the private gradebook. Review of an old SHA is not approval of later changes.
+For instructor only: acceptance/revision decision. Progress decisions and personal feedback stay in the private instructor register. No points-based completion or automatic certificates. Review of an old SHA is not approval of later changes.

@@ -1,1 +1,1 @@
-learner_alias,session,submission_url,head_sha,framing,test_design,evidence,ai_use,communication,total_out_of_20,safety_gate,decision,reviewer,private_notes
+learner_alias,session,submission_url,head_sha,product_repo_url,reviewed_product_sha,evidence_inspected,safety_followup,progress_status,next_action,reviewer,presentation_date,completion_decision,certificate_issued_date,private_notes
