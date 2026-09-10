@@ -4,7 +4,7 @@
 
 Create cohort codes and assign aliases privately. Use the same rubric for public and private routes. Explain GitHub visibility, AI consent, ownership, retention limits and the private handoff process; arrange any required school/guardian authorization privately. Verify account/provider age eligibility. Do not collect consent documents here.
 
-Copy `templates/gradebook.csv` into an instructor-only approved location (or ignored `private/` on your encrypted workstation). Never commit filled gradebooks, rosters, alias-to-person mappings or private notes. The repository provides an empty template, not a hosted student information system. Configure the cohort's actual private communication/storage channel before enrollment; local/in-person review is available until then.
+Copy `templates/gradebook.csv` (legacy filename; now a nonnumeric progress register) into an instructor-only approved location (or ignored `private/` on your encrypted workstation). Never commit filled gradebooks, rosters, alias-to-person mappings or private notes. The repository provides an empty template, not a hosted student information system. Configure the cohort's actual private communication/storage channel before enrollment; local/in-person review is available until then.
 
 ## Submission queue
 
@@ -19,7 +19,7 @@ Label queue items as needed: `needs-peer-review`, `needs-instructor-review`, `re
 3. Assign a peer to reproduce one claim and leave constructive artifact-focused feedback.
 4. Optionally request AI coaching after provider consent and privacy review.
 5. Independently reproduce an appropriate claim. For code patches, use a disposable VM/container/workstation with no personal/cloud credentials and the exact course commit. Never apply student patches to the live academy or a privileged runner. This first version does **not** automatically execute patches.
-6. Assess individuals with a short explanation or variation. Record marks privately using RUBRIC.md. Request revisions or approve the final head SHA. Merge only after acceptance and publication permission; do not treat bot comments as an instructor approval.
+6. Discuss an individual's actual decisions and evidence. Record evidence, next actions and support needs privately using RUBRIC.md. No scores or surprise test. Request revisions or approve the final head SHA. Merge only after acceptance and publication permission; do not treat bot comments as an instructor approval.
 
 Self-authored instructor maintenance PRs need another instructor review or a documented admin bypass; do not weaken student branch protection. Infrastructure changes are deliberately not accepted by the packet-only checker.
 
@@ -42,9 +42,15 @@ Provider reference: https://developers.openai.com/api/docs/guides/structured-out
 
 Responses storage setting: https://developers.openai.com/api/docs/guides/migrate-to-responses
 
-## Acceptance and graduation
+## Product reviews and course completion
 
-Use equal 0–4 scores across the five existing course dimensions: total /20; 14/20 is 70%. Require the safety gate and individual demonstration. Use session-specific criteria in addition to the common rubric. Session 00 is readiness, not a public grade. For graduation, assess required sessions/capstone according to the cohort's announced policy; do not invent missing scores or certify mastery from a green bot check.
+The individual product lives in each learner's own public repo, not this packet repository. The curriculum's project expectations and templates are at https://learn.labalicious.com/COURSE_PROJECT.html. Introduce it in Session 01, approve/kick off by Session 02, and review milestones throughout the course.
+
+Record full product/PR URLs, exact reviewed SHAs, observed evidence and follow-up privately. This intake does not automatically follow external links, clone student repositories or execute applications. Review source separately and use isolated, credential-free environments for approved runtime inspection. Never expose instructor credentials to student code.
+
+An optional Session 12 packet is a public-safe index/summary, not application code or a certificate request. It cannot replace the product review or presentation. A green packet check means neither product correctness nor completion.
+
+Jared Cluff hears every individual final presentation and decides completion after ongoing review. Use RUBRIC.md for coaching and the project's agreed expectations for readiness. No numeric threshold, separate exam or surprise defense. Offer revisions and another review where needed. Fill and issue certificates only after Jared's private approval; never commit names, certificates or completion decisions. The academy provides an empty private-use certificate template, not an automated issuer.
 
 ## Operations checks
 
